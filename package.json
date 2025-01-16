@@ -1,0 +1,24 @@
+{
+  "name": "1und1_unlimited",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LordEliasTM/1und1_unlimited#readme",
+  "bugs": {
+    "url": "https://github.com/LordEliasTM/1und1_unlimited/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordEliasTM/1und1_unlimited.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.1.0"
+  }
+}
