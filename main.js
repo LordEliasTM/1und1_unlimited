@@ -16,8 +16,7 @@ import 'dotenv/config';
   await page.type("#login-form-password", process.env.PASS);
   await page.click("#login-button");
 
-  await page.waitForNetworkIdle();
-
+  await page.waitForSelector("#consent_wall_optin");
   await page.click("#consent_wall_optin");
 
   await page.goto("https://control-center.1und1.de/usages.html")
