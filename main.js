@@ -33,11 +33,12 @@ const usagePageLink = "https://control-center.1und1.de/usages.html";
 (async () => {
   // Restart if crashes
   do {
-    try {
 
-      // Launch the browser and open a new blank page
-      const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'], pipe: true });
-      const page = await browser.newPage();
+    // Launch the browser and open a new blank page
+    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'], pipe: true });
+    const page = await browser.newPage();
+    
+    try {
 
       // Open login page
       console.log("Loading login page...")
