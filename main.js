@@ -31,7 +31,7 @@ const loginPageLink = "https://account.1und1.de/?redirect_url=https%3A%2F%2Fcont
 const usagePageLink = "https://control-center.1und1.de/usages.html";
 
 (async () => {
-  // Restart if crashes
+  // Restart when application crashes
   do {
 
     // Launch the browser and open a new blank page
